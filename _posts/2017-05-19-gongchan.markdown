@@ -4,7 +4,7 @@ title:      "共产中文腔调"
 subtitle:   "共产, 共产中文, 腔调"
 date:       2017-05-19
 author:     "womotofo"
-header-img: "img/post-bg-nexus6p.jpg"
+header-img: "img/postbg-nexus6p.jpg"
 tags:
     - 杂谈
 

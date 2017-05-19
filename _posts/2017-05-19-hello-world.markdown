@@ -4,7 +4,7 @@ title:      "Welcome to Ox4 Blog"
 subtitle:   " \"Hello World, Hello Blog\""
 date:       2017-05-19 8:00:00
 author:     "womotofo"
-header-img: "img/post-bg-nexus5x.jpg"
+header-img: "img/postbg-nexus5x.jpg"
 tags:
     - 生活
 ---
