@@ -2,7 +2,7 @@
 layout:     post
 title:      "17年7月份健身记录"
 subtitle:   "不健身的人就是一个大智障，我天天锻炼，你呢？  --奥巴马"
-date:       2017-05-21 16:04:00
+date:       2017-07-12 16:04:00
 author:     "womotofo"
 header-img: "img/postbg-nexus6.jpg"
 tags:
