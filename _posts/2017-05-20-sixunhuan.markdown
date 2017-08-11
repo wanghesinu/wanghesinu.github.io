@@ -4,7 +4,7 @@ title:      "中国经济是怎么进入“死循环”模式的？"
 subtitle:   "中国, 经济, 死循环"
 date:       2017-05-20 9:12:00
 author:     "womotofo"
-header-img: "img/postbg-nexus6.jpg"
+header-img: "img/20170520.jpg"
 tags:
     - 杂谈
 

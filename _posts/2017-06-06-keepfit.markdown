@@ -4,7 +4,7 @@ title:      "健身 健身 健身"
 subtitle:   "不健身的人就是一个大智障，我天天锻炼，你呢？  --奥巴马"
 date:       2017-06-06 16:04:00
 author:     "womotofo"
-header-img: "img/postbg-nexus6.jpg"
+header-img: "img/20170606.jpg"
 tags:
     - 健身
 
