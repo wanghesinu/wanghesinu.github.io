@@ -4,6 +4,10 @@ description: "我是谁？我从哪里来？我要到哪里去？"
 ---
 
 {% for post in paginator.posts %}
+<div style="position: fixed; top: 0px; left: 0px; z-index: -1; opacity: 0.5;">
+    <canvas width="1280" height="533" style="width: 1280px; height: 533px;">
+    </canvas>
+</div>
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
