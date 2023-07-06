@@ -3,14 +3,13 @@ layout:     post
 title:      "Welcome to Ox4 Blog"
 subtitle:   " \"Hello World, Hello Blog\""
 date:       2017-05-19 8:00:00
-author:     "womotofo"
+author:     "arakawa"
 header-img: "img/postbg-nexus5x.jpg"
 tags:
     - 生活
 ---
 
 > “Yeah It's on. ”
-
 
 ## 前言
 
@@ -48,4 +47,4 @@ Jekyll 主题采用 Hux Blog，在此基础上进行了微调。
 
 以上
 
-—— womotofo 记于 2017.05
+—— arakawa 记于 2017.05

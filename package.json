@@ -3,12 +3,12 @@
     "title": "Ox4 Blog",
     "author": "Ox4 <weimingjie@live.com>",
     "version": "1.7.0",
-    "homepage": "http://womotofo.github.io",
+    "homepage": "http://arakawa.github.io",
     "repository": {
         "type": "git",
-        "url": "https://github.com/womotofo/womotofo.github.io"
+        "url": "https://github.com/arakawa/arakawa.github.io"
     },
-    "bugs": "https://github.com/womotofo/womotofo.github.io/issues",
+    "bugs": "https://github.com/arakawa/arakawa.github.io/issues",
     "devDependencies": {
         "grunt": "~0.4.5",
         "grunt-contrib-less": "~0.11.4",

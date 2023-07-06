@@ -3,7 +3,7 @@ layout:     post
 title:      "Git常用命令总结"
 subtitle:   "懒惰的一周"
 date:       2017-09-01 13:30:00
-author:     "womotofo"
+author:     "arakawa"
 header-img: "img/20170901.jpg"
 tags:
     - 总结

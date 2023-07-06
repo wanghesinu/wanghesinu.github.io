@@ -3,7 +3,7 @@ layout:     post
 title:      "共产中文腔调"
 subtitle:   "共产, 共产中文, 腔调"
 date:       2017-05-19 10:00:00
-author:     "womotofo"
+author:     "arakawa"
 header-img: "img/20170519.jpg"
 tags:
     - 杂谈
