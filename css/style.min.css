@@ -63,7 +63,7 @@ body {
 }
 #wrapper .what {
   font-weight: 700;
-  color: #FFFFFF;
+  color: #fff;
 }
 #wrapper .os {
   position: absolute;
@@ -71,7 +71,7 @@ body {
   left: 50%;
   -webkit-transform: translate3d(-50%, 50px, 0);
   transform: translate3d(-50%, 50px, 0);
-  color: #666;
+  color: #fff;
   line-height: 1.4;
   width: 80%;
 }
@@ -175,7 +175,7 @@ body {
 }
 #temp_container .temp {
   position: absolute;
-  color: #FFFFFF;
+  color: #fff;
   -webkit-animation: flash 1.6s ease-out both;
   animation: flash 1.6s ease-out both;
   white-space: nowrap;
@@ -196,7 +196,7 @@ body {
   font-size: 12px;
 }
 #toggle span {
-  color: #999;
+  color: #fff;
   padding: 5px 10px;
   display: inline-block;
   cursor: pointer;
