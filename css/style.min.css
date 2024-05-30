@@ -175,7 +175,7 @@ body {
 }
 #temp_container .temp {
   position: absolute;
-  color: #777;
+  color: #FFFFFF;
   -webkit-animation: flash 1.6s ease-out both;
   animation: flash 1.6s ease-out both;
   white-space: nowrap;
