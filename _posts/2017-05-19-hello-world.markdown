@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Welcome to Ox4 Blog"
+title:      "Welcome to My Blog"
 subtitle:   " \"Hello World, Hello Blog\""
 date:       2017-05-19 8:00:00
 author:     "arakawa"
