@@ -63,7 +63,7 @@ body {
 }
 #wrapper .what {
   font-weight: 700;
-  color: #dddad6;
+  color: #FFFFFF;
 }
 #wrapper .os {
   position: absolute;
@@ -223,7 +223,7 @@ body {
 }
 #toggle [data-type="monster"].selected + .hb {
   left: 70px;
-  width: 5em;
+  width: 4em;
   background-color: #e80773;
 }
 .playing #toggle {
