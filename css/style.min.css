@@ -13,7 +13,7 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background: rgb(36, 39, 41);
+  background: #e9e9e9;
   -webkit-touch-callout: none;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   -webkit-tap-highlight-color: transparent;
@@ -52,7 +52,7 @@ body {
   font-weight: 400;
   font-size: 32px;
   cursor: pointer;
-  color: rgb(200, 195, 188);
+  color: #333;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -63,7 +63,7 @@ body {
 }
 #wrapper .what {
   font-weight: 700;
-  color: rgb(200, 195, 188);
+  color: #111;
 }
 #wrapper .os {
   position: absolute;
@@ -71,7 +71,7 @@ body {
   left: 50%;
   -webkit-transform: translate3d(-50%, 50px, 0);
   transform: translate3d(-50%, 50px, 0);
-  color: rgb(200, 195, 188);
+  color: #666;
   line-height: 1.4;
   width: 80%;
 }
@@ -82,7 +82,7 @@ body {
   display: block;
   padding: 7px 12px;
   background: rgba(0, 0, 0, 0.6);
-  color: rgb(200, 195, 188);
+  color: #fff;
   white-space: nowrap;
   border-radius: 15px;
   -webkit-background-size: contain;
@@ -126,7 +126,7 @@ body {
   );
   background: -webkit-linear-gradient(top, #ffba30, #ff911e);
   background: linear-gradient(to bottom, #ffba30, #ff911e);
-  color: rgb(200, 195, 188);
+  color: #fff;
   text-align: center;
   display: block;
   font-size: 32px;
