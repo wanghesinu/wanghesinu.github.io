@@ -139,7 +139,7 @@ body {
   font-size: 16px;
   color: #404040;
   overflow-x: hidden;
-  height: 100vh;
+  
 }
 p {
   margin: 30px 0;
@@ -1089,17 +1089,4 @@ img::-moz-selection {
 }
 .page-fullscreen footer .copyright a:hover {
   color: #ddd;
-}
-
-.text {
-  position: absolute;
-  z-index: 9999999;
-  font-weight: bold;
-  user-select: none;
-}
-
-@keyframes remove {
-  100% {
-      opacity: 0;
-  }
 }
