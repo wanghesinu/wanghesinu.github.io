@@ -1,4 +1,4 @@
-window.addEventListener('load', function () {
+function imissu() {
     let body = document.body;
     let content = ["❤I❤", "❤Miss❤", "❤U❤"] //自定义内容的数组
     body.addEventListener('click', function (e) {
@@ -48,4 +48,4 @@ window.addEventListener('load', function () {
         }
         return color; //返回随机生成的颜色
     }
-})
+}
