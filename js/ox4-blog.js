@@ -1,51 +1,84 @@
-window.addEventListener('load', function () {
-    let body = document.body;
-    let content = ["❤I❤", "❤Miss❤", "❤U❤"] //自定义内容的数组
-    body.addEventListener('click', function (e) {
-        let x = e.pageX;
-        let y = e.pageY; //当前坐标
-        let randContent = Math.ceil(Math.random() * content.length);
-        let text = new Text(x, y, randContent);
-        let span = document.createElement('span')
-        span.style.color = text.getRandom();
-        text.create(span);
-        setTimeout(function () {
-            text.out(span)
-        }, 1900)
-    })
+/*!
+ * Clean Blog v1.0.0 (http://startbootstrap.com)
+ * Copyright 2015 Start Bootstrap
+ * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
+ */
 
-    function Text(x, y, rand) {
-        this.x = x;
-        this.y = y;
-        this.rand = rand;
+ /*!
+ * Hux Blog v1.6.0 (http://startbootstrap.com)
+ * Copyright 2016 @huxpro
+ * Licensed under Apache 2.0 
+ */
+
+// Tooltip Init
+// Unuse by Hux since V1.6: Titles now display by default so there is no need for tooltip
+// $(function() {
+//     $("[data-toggle='tooltip']").tooltip();
+// });
+
+
+// make all images responsive
+/* 
+ * Unuse by Hux
+ * actually only Portfolio-Pages can't use it and only post-img need it.
+ * so I modify the _layout/post and CSS to make post-img responsive!
+ */
+// $(function() {
+//  $("img").addClass("img-responsive");
+// });
+
+// responsive tables
+$(document).ready(function() {
+    $("table").wrap("<div class='table-responsive'></div>");
+    $("table").addClass("table");
+});
+
+// responsive embed videos
+$(document).ready(function() {
+    $('iframe[src*="youtube.com"]').wrap('<div class="embed-responsive embed-responsive-16by9"></div>');
+    $('iframe[src*="youtube.com"]').addClass('embed-responsive-item');
+    $('iframe[src*="vimeo.com"]').wrap('<div class="embed-responsive embed-responsive-16by9"></div>');
+    $('iframe[src*="vimeo.com"]').addClass('embed-responsive-item');
+});
+
+// Navigation Scripts to Show Header on Scroll-Up
+jQuery(document).ready(function($) {
+    var MQL = 1170;
+
+    //primary navigation slide-in effect
+    if ($(window).width() > MQL) {
+        var headerHeight = $('.navbar-custom').height(),
+            bannerHeight  = $('.intro-header .container').height();     
+        $(window).on('scroll', {
+                previousTop: 0
+            },
+            function() {
+                var currentTop = $(window).scrollTop(),
+                    $catalog = $('.side-catalog');
+
+                //check if user is scrolling up by mouse or keyborad
+                if (currentTop < this.previousTop) {
+                    //if scrolling up...
+                    if (currentTop > 0 && $('.navbar-custom').hasClass('is-fixed')) {
+                        $('.navbar-custom').addClass('is-visible');
+                    } else {
+                        $('.navbar-custom').removeClass('is-visible is-fixed');
+                    }
+                } else {
+                    //if scrolling down...
+                    $('.navbar-custom').removeClass('is-visible');
+                    if (currentTop > headerHeight && !$('.navbar-custom').hasClass('is-fixed')) $('.navbar-custom').addClass('is-fixed');
+                }
+                this.previousTop = currentTop;
+
+
+                //adjust the appearance of side-catalog
+                $catalog.show()
+                if (currentTop > (bannerHeight + 41)) {
+                    $catalog.addClass('fixed')
+                } else {
+                    $catalog.removeClass('fixed')
+                }
+            });
     }
-    Text.prototype.create = function (_this) {
-        let body = document.body;
-        _this.innerHTML = content[this.rand - 1];
-        _this.className = 'text'
-        _this.style.top = this.y - 20 + 'px'
-        _this.style.left = this.x - 50 + 'px'
-        _this.style.animation = 'remove 2s'
-        body.appendChild(_this);
-        let i = 0
-        setInterval(() => {
-            _this.style.top = this.y - 20 - i + 'px'
-            i++
-        }, 10);
-    }
-    Text.prototype.out = function (_this) {
-        _this.remove()
-    }
-    //设置随机颜色
-    Text.prototype.getRandom = function () {
-        let allType = '0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f'; //16进制颜色
-        let allTypeArr = allType.split(','); //通过','分割为数组
-        let color = '#';
-        for (var i = 0; i < 6; i++) {
-            //随机生成一个0-16的数
-            var random = parseInt(Math.random() * allTypeArr.length);
-            color += allTypeArr[random];
-        }
-        return color; //返回随机生成的颜色
-    }
-})
+});
